@@ -1,0 +1,296 @@
+/* &display=swap*/
+@import url(null.css);
+
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,italic,500,500italic,700,700italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,italic,700,700italic,900,900italic&display=swap");
+
+@font-face {
+	font-family: "Hydrella";
+	src: url("../fonts/Hydrella-Regular.woff2") format("woff2"), url("../fonts/Hydrella-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Hydrella";
+	src: url("../fonts/Hydrella-Bold.woff2.woff2") format("woff2"), url("../fonts/Hydrella-Black.woff.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Hydrella";
+	src: url("../fonts/Hydrella-Black.woff2") format("woff2"), url("../fonts/Hydrella-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+/* font-family: 'Merriweather', serif;
+   font-family: 'Ubuntu', sans-serif;
+	font-family: 'Hydrella', sans-serif; */
+
+body {
+	font-family: "Merriweather", serif;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	max-width: 1200px;
+	border: 3px solid #000;
+	box-shadow: 0px 0px 30px 40px grey;
+}
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+.title {
+	font-size: 43px;
+	text-align: center;
+	text-decoration: underline;
+	color: chocolate;
+	font-weight: 900;
+	margin: 25px 0px;
+	border: 5px dashed rgb(168, 0, 184);
+}
+.text {
+	font-size: 23px;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 700;
+	color: rgb(4, 0, 255);
+	text-transform: uppercase;
+	padding: 0px 20px 20px 20px;
+	border-top: 7px solid green;
+	border-bottom: 7px solid brown;
+	border-left: 10px dotted yellow;
+	border-right: 10px dotted pink;
+}
+
+.menu {
+	margin: 35px 0px;
+}
+
+.list {
+	font-size: 30px;
+	font-family: "Hydrella", sans-serif;
+	padding: 0px 0px 0px 100px;
+	color: goldenrod;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+
+.title-1 {
+	padding: 0px 0px 0px 20px;
+	font-style: italic;
+	font-weight: 900;
+	font-size: 25px;
+	color: blueviolet;
+	text-decoration: underline;
+	text-shadow: 10px -10px 3px rgb(126, 153, 4);
+}
+.york {
+	box-shadow: 0px 0px 40px 40px rgb(141, 81, 1);
+	border-radius: 50%;
+	width: 500px;
+	height: 500px;
+	outline: 4px dotted rgb(255, 197, 180);
+}
+
+.block {
+	margin: 25px 0px;
+}
+.text1 {
+	margin: 25px 0px;
+	font-weight: 900;
+	font-size: 23px;
+	font-style: italic;
+	color: palevioletred;
+	padding: 0px 0px 0px 30px;
+}
+.text__block1 {
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 500;
+	font-size: 27px;
+	padding: 0px 0px 0px 30px;
+	color: yellow;
+	text-shadow: -5px 5px 5px rgb(54, 1, 1);
+	line-height: 1.5;
+}
+.title-2 {
+	font-family: "Hydrella", sans-serif;
+	font-weight: 900;
+	letter-spacing: 20px;
+	color: slategray;
+	font-size: 50px;
+	text-align: center;
+	margin: 0px 0px 25px 0px;
+}
+
+.spithc {
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	box-shadow: 5px 5px 20px 10px rgb(126, 2, 228);
+}
+
+.block__2 {
+	margin: 0 auto;
+	max-width: 700px;
+	overflow: scroll;
+	height: 300px;
+}
+.text2 {
+	margin: 25px 0px;
+	font-style: italic;
+	color: greenyellow;
+	font-size: 17px;
+	text-decoration: line-through;
+	box-shadow: inset 3px 3px 10px 40px rgb(83, 0, 79);
+}
+.text__block2 {
+	font-size: 17px;
+	text-transform: capitalize;
+	color: lightseagreen;
+	font-family: "Hydrella", sans-serif;
+	font-weight: 900;
+	letter-spacing: 3px;
+	box-shadow: inset 3px 3px 10px 40px rgb(187, 117, 25);
+}
+.title-3 {
+	margin: 40px 0px 25px 0px;
+	text-align: right;
+	font-size: 45px;
+	text-decoration: overline;
+	color: red;
+	text-shadow: -30px -20px 5px rgb(25, 0, 70);
+}
+
+.labr {
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	box-shadow: 10px 10px 40px 10px rgb(121, 119, 1);
+	outline: 6px dashed rgb(128, 37, 1);
+}
+
+.block__3 {
+	margin: 0 auto;
+	max-width: 1000px;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 22px;
+	font-style: italic;
+	font-weight: 700;
+	padding: 10px;
+	border-radius: 50px;
+	border: 7px solid rgb(238, 234, 15);
+}
+.text3 {
+	margin: 25px 0px;
+	color: rgb(6, 138, 247);
+	padding: 0px 20px;
+}
+.text__block3 {
+	color: rgb(179, 3, 214);
+	text-transform: lowercase;
+	padding: 0px 0px 0px 20px;
+}
+.title-4 {
+	margin: 25px 0px;
+	font-size: 70px;
+	text-align: center;
+	letter-spacing: 30px;
+	color: maroon;
+	font-weight: 900;
+}
+
+.mops {
+	border-radius: 50%;
+	width: 400px;
+	height: 400px;
+	box-shadow: -30px -30px 10px 10px rgb(25, 211, 0);
+}
+
+.block__4 {
+	margin: 0 auto;
+	max-width: 800px;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 19px;
+	font-weight: 500;
+	font-style: italic;
+	padding: 20px;
+	border: 10px dotted rgb(163, 3, 155);
+}
+.text4 {
+	margin: 40px 0px;
+	padding: 20px;
+	color: rgba(77, 31, 0, 0.644);
+	box-shadow: 3px 3px 20px 30px rgb(4, 118, 184);
+}
+.text__block4 {
+	padding: 0px 30px;
+	margin: 0px 0px 20px 0px;
+	font-size: 22px;
+	color: green;
+	text-transform: capitalize;
+	text-decoration: line-through;
+	text-shadow: 3px 3px 20px rgb(214, 104, 0);
+}
+.title-5 {
+	margin: 0px 0px 20px 0px;
+	font-family: "Hydrella", sans-serif;
+	font-weight: 900;
+	font-size: 45px;
+	color: rgb(42, 8, 95);
+	text-align: center;
+}
+
+.jack {
+	border-radius: 50%;
+	width: 400px;
+	height: 400px;
+	box-shadow: -30px 30px 20px 50px rgb(62, 56, 146);
+}
+
+.text5 {
+	font-family: "Hydrella", sans-serif;
+	font-weight: 700;
+	padding: 10px;
+	color: fuchsia;
+	font-size: 25px;
+	text-shadow: -3px 3px 15px #000;
+	text-decoration: underline;
+	margin: 20px 0px;
+	opacity: 0.5;
+}
+.inline {
+	display: block;
+	font-size: 40px;
+	color: darkslategray;
+	padding: 100px;
+	text-shadow: 3px 3px 3px rgb(2, 167, 2);
+	opacity: 0.4;
+}
+.footer {
+	margin: 25px 0px;
+	font-style: italic;
+	font-size: 23px;
+}
+
+.page {
+	padding: 0px 50px;
+	margin: 0px 0px 50px 0px;
+	text-transform: lowercase;
+	line-height: 2;
+	color: rgb(190, 51, 74);
+	text-decoration: overline;
+}
+
+.image {
+	border-radius: 30% 50px 30% 30px;
+	border: 7px solid rgb(100, 41, 2);
+	box-shadow: 2px 2px 20px 20px rgb(1, 140, 204), 2px 2px 30px 40px rgba(144, 0, 180, 0.575);
+}
